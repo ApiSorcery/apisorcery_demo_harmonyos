@@ -1,6 +1,6 @@
 # ApiSorcery - HarmonyOS Example
 
-This is a HarmonyOS (OpenHarmony) application using ArkTS that demonstrates API integration using AutoAPI.
+This is a HarmonyOS (OpenHarmony) application using ArkTS that demonstrates API integration using ApiSorcery.
 
 ## Features
 
@@ -10,7 +10,7 @@ This is a HarmonyOS (OpenHarmony) application using ArkTS that demonstrates API 
 - ✅ Form Validation
 - ✅ Image Upload
 - ✅ Status Management
-- ✅ Type-safe API calls with AutoAPI
+- ✅ Type-safe API calls with ApiSorcery
 - ✅ Native HarmonyOS development with ArkTS
 
 ## Tech Stack
@@ -19,13 +19,13 @@ This is a HarmonyOS (OpenHarmony) application using ArkTS that demonstrates API 
 - **ArkUI** - Declarative UI framework
 - **HarmonyOS SDK** - Native HarmonyOS APIs
 - **HTTP Client** - Network requests
-- **AutoAPI** - API code generation
+- **ApiSorcery** - API code generation
 
 ## Prerequisites
 
 - DevEco Studio (latest version)
 - HarmonyOS SDK (API 9 or higher)
-- Node.js >= 22.0.0 (for AutoAPI)
+- Node.js >= 22.0.0 (for ApiSorcery)
 - HarmonyOS device or emulator
 
 ## Getting Started
@@ -86,7 +86,7 @@ autoapi_demo_harmonyos/
 │   └── app.json5                  # App configuration
 ├── hvigor/                        # Build tool
 ├── oh_modules/                    # Dependencies
-├── .apisorceryrc.json                # AutoAPI configuration
+├── .apisorceryrc.json                # ApiSorcery configuration
 ├── build-profile.json5            # Project build config
 ├── hvigorfile.ts                  # Build script
 └── oh-package.json5               # Dependencies
@@ -94,7 +94,7 @@ autoapi_demo_harmonyos/
 
 ## API Configuration
 
-The application uses AutoAPI to generate type-safe API client code. Configuration is in `.apisorceryrc.json`:
+The application uses ApiSorcery to generate type-safe API client code. Configuration is in `.apisorceryrc.json`:
 
 ```json
 {
@@ -531,7 +531,7 @@ struct UserListItem {
 - HarmonyOS SDK: API 9+
 - ArkTS: Latest
 - DevEco Studio: Latest
-- AutoAPI: Latest
+- ApiSorcery: Latest
 
 ## License
 
