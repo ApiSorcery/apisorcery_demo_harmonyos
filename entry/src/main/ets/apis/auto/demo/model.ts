@@ -82,6 +82,13 @@ export class UploadFileRequest implements TFormData {
   }
 }
 
+/** Query user list with pagination response parameters */
+export interface GetUserPagedResponse {
+  results: Array<UserInfoDto>;
+
+  total: number;
+}
+
 export interface ResultData {
   /**
    * Status code
